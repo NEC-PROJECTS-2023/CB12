@@ -1,6 +1,6 @@
 # CB12
 Gold Price Prediction using Machine Learning</br>
-Team Nmes:
+Team Names:
 1. D.Guravaiah
 2. B.Sarath Chandra
 3. A.Phani Kumar
