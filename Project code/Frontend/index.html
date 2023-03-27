@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Gold Price Prediction</title>
+        <style>
+            h1{
+                text-align: center;
+
+            }
+            form{
+                justify-content: center;
+                text-align: center;
+            }
+            h3{
+                text-align: Center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Gold Price Prediction</h1>
+        <form method="post" action="predict">
+        <label>SPX</label>
+        <input type="number" step="any" name="SPX" required><br><br>
+        <label>GLD</label>
+        <input type="number" step="any" name="GLD"required><br><br>
+        <label>USO</label>
+        <input type="number" step="any" name="USO" required><br><br>
+        <label>SLV</label>
+        <input type="number" step="any" name="SLV" required><br><br>
+        <input type="submit" value="predict">
+
+
+    </form>
+    <h3>prediction value for gold:
+    {{prediction}}</h3>
+    </body>
+
+</html>
